@@ -1,13 +1,10 @@
 # Cow-Identification
 
 ### The problem:
-Given a cow, identify the closest looking cow from the list of cows in the dataset.
+Given a picture of a cow, decide which cow from among a set of cows the picture represents, if any.
 
-### The main idea:
-- In the `main.py` file, we first process the training set. 
-- Next, call the `kerasModel()` function located in the `train.py` file, to construct a neural network model that identifies the cows.
-- After the training phase, we use the test set and check accuracy.
-- We got an accuracy percentage higher than 90%.
+### How it works:
+A neural network is trained (using Keras) to construct a model that classifies cows (accuracy: >90%).
 
 ## Installation:
 Clone this repository to your local machine and run:
